@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>登陆</title>
+        <link rel="stylesheet" href="login.css">
+        <style media="screen">
+            body{
+                background-image: url('img.jpg');
+                width: 100%;
+                max-height: 900px;
+                }
+        </style>
+    </head>
+
+    <body>
+        <h1 class="header1">开始属于你的TODO-LIST!</h1>
+        <form action="logincheck.php" method="post"> 
+        <div name="login" class="div1">
+            <input type="text" name="username" class="login1" placeholder="请输入用户名" >
+            <br>
+            <input type="password" name="password" class="login1" placeholder="请输入密码">
+            <br>
+            <input type="submit" name="submit" class="submit1" value="登陆">
+            <br>
+            <a href="./register.html" class="register1">还没有账号？立即注册</a>
+        </div>
+        </form>
+    </body>
+</html>
